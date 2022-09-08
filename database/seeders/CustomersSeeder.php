@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\DB;
 
 use Illuminate\Database\Seeder;
 
-class CustomerSeeder extends Seeder
+class CustomersSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,7 +14,7 @@ class CustomerSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('customer')->insert([
+        DB::table('customers')->insert([
             [
             'image' => '/template/img/cappuccino.jpg',
             'nama' => 'Alif Tegro surya Faridzki',
@@ -22,6 +22,18 @@ class CustomerSeeder extends Seeder
             [
             'image' => '/template/img/espresso.jpg',
             'nama' => 'Muhammad Akbar Azmi',
+            'tanggal' => now()],
+            [
+            'image' => '/template/img/red eye.jpg',
+            'nama' => 'Jhon Baker',
+            'tanggal' => now()],
+            [
+            'image' => '/template/img/kothok.jpeg',
+            'nama' => 'Rey Akbar',
+            'tanggal' => now()],
+            [
+            'image' => '/template/img/toraja.jpeg',
+            'nama' => 'Lionel Ramon',
             'tanggal' => now()]
 
         ]);
