@@ -18,7 +18,7 @@ class CustomerSeeder extends Seeder
             [
             'image' => '/template/img/cappuccino.jpg',
             'nama' => 'Alif Tegro surya Faridzki',
-            'tanggal' => 'now'()],
+            'tanggal' => '2022/09/08'],
             [
             'image' => '/template/img/espresso.jpg',
             'nama' => 'Muhammad Akbar Azmi',
